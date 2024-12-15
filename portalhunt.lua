@@ -2,7 +2,7 @@ getgenv().config = {
     ["Team"] = "Pirates",
     ["Use Race"] = {
         ["V3"] = true,
-        ["V4"] = true
+        ["V4"] = false
     },
     ["Info Screen"] = true,
     ["White Screen"] = false,
@@ -43,11 +43,11 @@ getgenv().config = {
                     ["HoldTime"] = 2,
                 },
                 ["C"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                 },
                 ["V"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                 },
                 ["F"] = {
@@ -57,7 +57,7 @@ getgenv().config = {
             },
         },
         ["Gun"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
@@ -71,7 +71,7 @@ getgenv().config = {
             },
         },
         ["Sword"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
